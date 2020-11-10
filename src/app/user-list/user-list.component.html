@@ -1,0 +1,11 @@
+<div class="row">
+  <h4>User data appears here</h4>
+  <hr>
+</div>
+<div class="row">
+    <div class="col-xs-12">
+      <app-user-item
+      *ngFor="let user of users"
+      [user]="user"></app-user-item>
+    </div>
+</div>
