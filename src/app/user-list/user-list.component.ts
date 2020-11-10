@@ -18,10 +18,6 @@ export class UserListComponent implements OnInit {
     );
    }
 
-  ngOnChanges() {
-    this.users = this.userService.getUsers();
-  }
-
   ngOnInit(): void {
     this.users = this.userService.getUsers();
   }
